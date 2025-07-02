@@ -1,7 +1,7 @@
 import type { IGameBoardSquare } from "../interfaces/interfaces";
 
 export const WINNING_COMBINATIONS: IGameBoardSquare[][] = [
-  // Horizontal wins
+  // Horizontal win condtions
   [
     { row: 0, column: 0 },
     { row: 0, column: 1 },
@@ -17,7 +17,7 @@ export const WINNING_COMBINATIONS: IGameBoardSquare[][] = [
     { row: 2, column: 1 },
     { row: 2, column: 2 },
   ],
-  // Vertical wins
+  // Vertical win conditions
   [
     { row: 0, column: 0 },
     { row: 1, column: 0 },
@@ -33,7 +33,7 @@ export const WINNING_COMBINATIONS: IGameBoardSquare[][] = [
     { row: 1, column: 2 },
     { row: 2, column: 2 },
   ],
-  // Diagonal wins
+  // Diagonal win conditions
   [
     { row: 0, column: 0 },
     { row: 1, column: 1 },
