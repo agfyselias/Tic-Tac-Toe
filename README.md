@@ -20,7 +20,7 @@ A simple two-player Tic-Tac-Toe desktop game built with React and TypeScript. Pl
 
 ## 📸 Preview
 
-![Game Screenshot]((https://github.com/user-attachments/assets/f2c587e1-79e0-4ffb-84e1-ce27e7aa69d5)
+![Game Screenshot](https://github.com/user-attachments/assets/f2c587e1-79e0-4ffb-84e1-ce27e7aa69d5)
 
 ---
 
