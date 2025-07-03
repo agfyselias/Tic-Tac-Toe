@@ -4,7 +4,8 @@ A simple two-player Tic-Tac-Toe desktop game built with React and TypeScript, ef
 
 ---
 
-# ⚠️ **Disclaimer**: This project is based on the _"React – The Complete Guide (incl. Redux)"_ course by [Maximilian Schwarzmüller](https://www.udemy.com/course/react-the-complete-guide-incl-redux/). The layout and CSS are largely derived from the course materials. All logic and components were re-coded in **TypeScript** and restructured by me during the learning purposes.
+# ⚠️ **Disclaimer**:
+This project is based on the _"React – The Complete Guide (incl. Redux)"_ course by [Maximilian Schwarzmüller](https://www.udemy.com/course/react-the-complete-guide-incl-redux/).The layout, design and CSS are largely derived from the course materials. All logic and components were re-coded in **TypeScript** and **SCSS** and restructured by me during the learning purposes.
 
 ---
 
