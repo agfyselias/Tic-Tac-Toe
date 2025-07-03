@@ -1,6 +1,6 @@
 # ❌🟢 Tic-Tac-Toe Game (React + TypeScript)
 
-A simple two-player Tic-Tac-Toe desktop game built with React and TypeScript. Played on the same device (no online multiplayer), it supports name editing, move logging, automatic turn switching, and a game-over popup for wins or draws.
+A simple two-player Tic-Tac-Toe desktop game built with React and TypeScript, effectively utilizing and handling the state functionality. Played on the same device (no online multiplayer), it supports name editing, move logging, automatic turn switching, and a game-over popup for wins or draws.
 
 ---
 
