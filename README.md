@@ -4,6 +4,20 @@ A simple two-player Tic-Tac-Toe desktop game built with React and TypeScript, ef
 
 ---
 
+# ⚠️ **Disclaimer**: This project is based on the _"React – The Complete Guide (incl. Redux)"_ course by [Maximilian Schwarzmüller](https://www.udemy.com/course/react-the-complete-guide-incl-redux/). The layout and CSS are largely derived from the course materials. All logic and components were re-coded in **TypeScript** and restructured by me during the learning purposes.
+
+---
+
+# 🧠 What I Did Differently
+
+- 🔄 **Converted the entire codebase to TypeScript**
+- 🧩 **Refactored component structure** for better separation of concerns
+- 🧪 **Handled state immutably and predictably** using modern React practices
+- 📁 **Used Vite for project setup** instead of Create React App
+- 🎨 **Applied global and scoped styles using SCSS** instead of keeping a global CSS file
+
+---
+
 ## 🎮 Features
 
 - ✅ 3×3 game board
@@ -29,7 +43,7 @@ A simple two-player Tic-Tac-Toe desktop game built with React and TypeScript, ef
 - React: v19.1.0
 - Node v20.19.3
 - TypeScript: v5.8.3
-- CSS
+- SCSS
 - Vite: v7.0.0
 
 ---
@@ -42,6 +56,8 @@ A simple two-player Tic-Tac-Toe desktop game built with React and TypeScript, ef
 - **`Player.tsx`** – Editable player info
 - **`GameLog.tsx`** – Displays move history
 - **`GameOver.tsx`** – Shows winner or draw popup with a "Rematch" button
+- **`PreGame.tsx`** – TO-DO
+- **`GameHints.tsx`** – TO-DO
 
 ---
 
