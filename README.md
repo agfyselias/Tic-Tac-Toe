@@ -1,4 +1,4 @@
-# ❌🟢 Tic-Tac-Toe Game (React + TypeScript)
+# ❌🟢 Tic-Tac-Toe Game (React + TypeScript + SCSS)
 
 A simple two-player Tic-Tac-Toe desktop game built with React and TypeScript, effectively utilizing and handling the state functionality. Played on the same device (no online multiplayer), it supports name editing, move logging, automatic turn switching, and a game-over popup for wins or draws.
 
@@ -11,11 +11,11 @@ This project is based on the _"React – The Complete Guide (incl. Redux)"_ cour
 
 # 🧠 What I Did Differently
 
-- 🔄 **Converted the entire codebase to TypeScript**
-- 🧩 **Refactored component structure** for better separation of concerns
-- 🧪 **Handled state immutably and predictably** using modern React practices
-- 📁 **Used Vite for project setup** instead of Create React App
-- 🎨 **Applied global and scoped styles using SCSS** instead of keeping a global CSS file
+- 🔄 **Converted the entire codebase to TypeScript**, also adding interfaces and enums
+- 🧩 **Refactored component structure**, for better separation of concerns
+- 🧪 **Handled state immutably and predictably**, using modern React practices
+- 📁 **Used Vite for project setup**, instead of Create React App
+- 🎨 **Applied global and scoped styles using SCSS**, instead of keeping a global CSS file
 
 ---
 
