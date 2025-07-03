@@ -1,0 +1,27 @@
+@import '@/assets/styles/abstract/variables';
+
+.game-hints {
+  text-align: center;
+  color: $color-mondo;
+
+  & h2 {
+    font-family: 'Caprasimo', cursive;
+    font-size: 2rem;
+    margin: 0;
+  }
+
+  & ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+
+  & button {
+    cursor: pointer;
+    border: none;
+    background: transparent;
+    color: $color-tuatara;
+    font: inherit;
+    margin-top: 1.5rem;
+  }
+}

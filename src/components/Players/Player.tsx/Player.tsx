@@ -1,5 +1,6 @@
 import { useState } from "react";
 import type { IPlayer } from "../../../utilities/interfaces/interfaces";
+import styles from './Player.module.scss';
 
 function Player(props: {
   defaultPlayer: IPlayer,
@@ -10,12 +11,12 @@ function Player(props: {
   const [isEditing, setIsEditing] = useState(false);
 
   function handleEditClick(): void {
-    if (isEditing) {
-      return props.onSavePlayerName(player.name);
-    }
     setIsEditing((editing: boolean): boolean => {
       return !editing;
     });
+    if (isEditing) {
+      return props.onSavePlayerName(player.name);
+    }
   }
 
   function handlePlayerNameChange(event: React.ChangeEvent<HTMLInputElement>): void {
@@ -26,22 +27,26 @@ function Player(props: {
   }
 
   return (
-    <li className={props.isActive ? 'active' : undefined}>
-      <span className="player">
+    <li className={`${styles.player} ${props.isActive ? styles['player--active'] : ''}`}>
+      <span className={styles.player}>
         {!isEditing
-          ? <span className="player-name">{player.name}</span>
+          ? <span className={`${styles['player__name']} ${props.isActive ? styles['player__name--active'] : ''}`}>
+              {player.name}
+            </span>
           : <input
               required
               type="text"
-              value={player.name}
               placeholder="Player name"
+              className={styles['player__name-input']}
+              value={player.name}
               onChange={handlePlayerNameChange}
             />
         }
-        <span className="player-symbol">{player.symbol}</span>
+        <span className={`${styles['player__symbol']} ${props.isActive ? styles['player__symbol--active'] : ''}`}>{player.symbol}</span>
       </span>
       <button
         type="button"
+        className={styles['player__button']}
         onClick={handleEditClick}
       >
         {isEditing ? 'Save' : 'Edit'}

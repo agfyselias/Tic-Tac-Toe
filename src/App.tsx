@@ -7,6 +7,7 @@ import { WINNING_COMBINATIONS } from "./utilities/mocks/winning-combinations-moc
 import { DEFAULT_GAMEBOARD } from "./utilities/mocks/default-gameboard-mock";
 import GameOver from "./components/GameOver/GameOver";
 import { DEFAULT_PLAYERS } from "./utilities/mocks/default-players-mock";
+import styles from './App.module.scss';
 
 // Helper functions
 function deriveActivePlayer(gameTurns: ITurn[]): 'X' | 'O' {
@@ -93,7 +94,7 @@ function App() {
 
   return (
     <main>
-      <div id="game-container">
+      <div className={styles['game-container']}>
         <Players
           players={players}
           activePlayerSymbol={activePlayerSymbol}

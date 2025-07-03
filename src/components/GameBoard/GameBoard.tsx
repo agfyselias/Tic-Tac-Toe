@@ -1,9 +1,11 @@
+import styles from './GameBoard.module.scss';
+
 function GameBoard(props: {
   gameBoard: string[][],
   onSquareClick: (rowIndex: number, colIndex: number) => void,
 }) {
   return (
-    <ol id="game-board">
+    <ol className={styles['game-board']}>
       {props.gameBoard.map((row: string[], rowIndex: number) =>
         <li key={`game-board-row-${rowIndex}`}>
           <ol>
