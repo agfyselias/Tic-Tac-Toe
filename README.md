@@ -62,6 +62,18 @@ This project is based on the _"React – The Complete Guide (incl. Redux)"_ cour
 
 ---
 
+## 🛠️ Utilities Overview
+
+- **`DefaultGameBoard.mock.ts`** – Empty game board in the form of an array
+- **`DefaultPlayres.mock.ts`** – Initial info for both players
+- **`WinningCombination.mock.ts`** – All possible winning combinations in a array format
+
+- **`GameBoardSquare.interface.ts`** – The coordinates type for each square in the game board
+- **`Player.interface.ts`** – Necessary player info type
+- **`Turn.interface.ts`** – Keeps track for each turn - which player chose which square
+
+---
+
 ## 🚀 Getting Started
 
 1. **Clone the repo:**
