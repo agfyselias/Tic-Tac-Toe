@@ -1,10 +1,7 @@
+@use '@/assets/styles/abstract/colors' as colors;
+@use '@/assets/styles/abstract/fonts' as fonts;
+
 html {
-  font-family: 'Roboto Slab', sans-serif;
-  line-height: 1.5;
-
-  color: $color-whisper;
-
-  font-synthesis: none;
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
@@ -14,8 +11,8 @@ html {
 body {
   background: radial-gradient(
       circle at top,
-      rgba($color-ronchi, 0.98),
-      rgba($color-rajah, 0.87)
+      rgba(colors.$color-ronchi, 0.98),
+      rgba(colors.$color-rajah, 0.87)
     ),
     url('bg-pattern-dark.png');
   background-repeat: repeat;
@@ -25,11 +22,11 @@ body {
 
 header {
   text-align: center;
-}
 
-header img {
-  width: 8rem;
-  object-fit: contain;
-  margin: 3rem auto 1rem auto;
-  filter: drop-shadow(0 0 8px rgba($color-black, 0.4));
+  & img {
+    width: 8rem;
+    object-fit: contain;
+    margin: 3rem auto 1rem auto;
+    filter: drop-shadow(0 0 8px rgba(colors.$color-black, 0.4));
+  }
 }

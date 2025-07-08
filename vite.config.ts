@@ -6,7 +6,7 @@ export default defineConfig({
   plugins: [react()],
   resolve: {
     alias: {
-      '@': '/src', // this creates the alias
+      '@': '/src',
     },
   },
 })

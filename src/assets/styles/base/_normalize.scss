@@ -5,8 +5,20 @@
   margin: 0;
   box-sizing: border-box;
   border: none;
+  outline: none;
+  background: transparent;
+  background-color: transparent;
 }
 
-ol {
+ol,
+ul {
   list-style: none;
+}
+
+button {
+  cursor: pointer;
+
+  &:disabled {
+    cursor: not-allowed;
+  }
 }

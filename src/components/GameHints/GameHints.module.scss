@@ -1,27 +1,18 @@
-@import '@/assets/styles/abstract/variables';
+@use '@/assets/styles/abstract/colors' as colors;
+@use '@/assets/styles/abstract/fonts' as fonts;
 
 .game-hints {
   text-align: center;
-  color: $color-mondo;
+  color: colors.$color-mondo;
 
-  & h2 {
-    font-family: 'Caprasimo', cursive;
-    font-size: 2rem;
-    margin: 0;
-  }
-
-  & ul {
-    list-style: none;
-    padding: 0;
-    margin: 0;
+  &__title {
+    font-family: fonts.$font-family-secondary;
+    font-size: fonts.$font-size-lg;
   }
 
   & button {
-    cursor: pointer;
-    border: none;
-    background: transparent;
-    color: $color-tuatara;
     font: inherit;
+    color: colors.$color-tuatara;
     margin-top: 1.5rem;
   }
 }

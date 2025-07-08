@@ -1,6 +1,6 @@
 import { useState } from "react";
-import type { IPlayer } from "../../../utilities/interfaces/interfaces";
-import styles from './Player.module.scss';
+import type { IPlayer } from "../../../utilities/interfaces/Player.interface";
+import classes from './Player.module.scss';
 
 function Player(props: {
   defaultPlayer: IPlayer,
@@ -27,26 +27,26 @@ function Player(props: {
   }
 
   return (
-    <li className={`${styles.player} ${props.isActive ? styles['player--active'] : ''}`}>
-      <span className={styles.player}>
+    <li className={`${classes['player']} ${props.isActive ? classes['player--active'] : ''}`}>
+      <span className={classes['player']}>
         {!isEditing
-          ? <span className={`${styles['player__name']} ${props.isActive ? styles['player__name--active'] : ''}`}>
+          ? <span className={`${classes['player__name']} ${props.isActive ? classes['player__name--active'] : ''}`}>
               {player.name}
             </span>
           : <input
               required
               type="text"
               placeholder="Player name"
-              className={styles['player__name-input']}
+              className={classes['player__name-input']}
               value={player.name}
               onChange={handlePlayerNameChange}
             />
         }
-        <span className={`${styles['player__symbol']} ${props.isActive ? styles['player__symbol--active'] : ''}`}>{player.symbol}</span>
+        <span className={`${classes['player__symbol']} ${props.isActive ? classes['player__symbol--active'] : ''}`}>{player.symbol}</span>
       </span>
       <button
         type="button"
-        className={styles['player__button']}
+        className={classes['player__button']}
         onClick={handleEditClick}
       >
         {isEditing ? 'Save' : 'Edit'}

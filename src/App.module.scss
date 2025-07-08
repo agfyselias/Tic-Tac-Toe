@@ -1,11 +1,11 @@
-@import '@/assets/styles/abstract/variables';
+@use '@/assets/styles/abstract/colors' as colors;
 
 .game-container {
   max-width: 45rem;
   margin: 3rem auto;
   padding: 2rem;
   border-radius: 6px;
-  background: linear-gradient($color-birch, $color-zeus);
-  box-shadow: 0 0 20px rgba($color-black, 0.5);
+  background: linear-gradient(colors.$color-birch, colors.$color-zeus);
+  box-shadow: 0 0 20px rgba(colors.$color-black, 0.5);
   position: relative;
 }

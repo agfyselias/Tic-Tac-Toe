@@ -1,4 +1,4 @@
-import type { IGameBoardSquare } from "../interfaces/interfaces";
+import type { IGameBoardSquare } from "../interfaces/GameBoardSquare.interface";
 
 export const WINNING_COMBINATIONS: IGameBoardSquare[][] = [
   // Horizontal win condtions

@@ -1,11 +1,9 @@
-@import '@/assets/styles/abstract/variables';
+@use '@/assets/styles/abstract/colors' as colors;
 
 .log {
   max-width: 20rem;
-  color: $color-mandras;
-  list-style: none;
+  color: colors.$color-mandras;
   margin: 2rem auto;
-  padding: 0;
   text-align: center;
 
   &__game-turn {
@@ -14,8 +12,8 @@
     margin: 0.75rem;
 
     &--highlighted {
-      background-color: $color-mandras;
-      color: $color-white;
+      background-color: colors.$color-mandras;
+      color: colors.$color-white;
     }
   }
 }

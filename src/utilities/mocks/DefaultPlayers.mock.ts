@@ -1,4 +1,4 @@
-import type { IPlayer } from "../interfaces/interfaces";
+import type { IPlayer } from "../interfaces/Player.interface";
 
 export const DEFAULT_PLAYERS: IPlayer[] = [
   {
