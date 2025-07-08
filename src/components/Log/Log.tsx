@@ -1,4 +1,4 @@
-import type { ITurn } from "../../utilities/interfaces/Turn.interface";
+import type { ITurn } from "../../interfaces/Turn.interface";
 import classes from './Log.module.scss';
 
 function Log(props: { gameTurns: ITurn[]}) {
