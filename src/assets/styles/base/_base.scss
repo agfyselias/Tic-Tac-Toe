@@ -2,12 +2,6 @@
 @use '@/assets/styles/abstract/fonts' as fonts;
 
 html {
-  font-family: fonts.$font-family-primary;
-  line-height: 1.5;
-
-  color: colors.$color-whisper;
-
-  font-synthesis: none;
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;

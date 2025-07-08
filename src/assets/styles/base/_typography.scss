@@ -1,9 +1,15 @@
 @use '@/assets/styles/abstract/colors' as colors;
 @use '@/assets/styles/abstract/fonts' as fonts;
 
+html {
+  font-family: fonts.$font-family-primary;
+  line-height: 1.5;
+  font-synthesis: none;
+  color: colors.$color-whisper;
+}
+
 h1 {
   font-family: fonts.$font-family-secondary;
   font-size: fonts.$font-size-xl;
-  margin: 0 auto 3rem auto;
   color: colors.$color-mandras;
 }
