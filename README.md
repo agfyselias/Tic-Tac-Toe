@@ -28,8 +28,6 @@ This project is based on the _"React – The Complete Guide (incl. Redux)"_ cour
 - ✅ Highlights the active player
 - ✅ Game Over popup when someone wins or it’s a draw
 - ✅ "Rematch" button resets the game
-- ✅ Type-safe with TypeScript
-- ✅ Clean component structure using props and state
 
 ---
 
@@ -67,4 +65,11 @@ This project is based on the _"React – The Complete Guide (incl. Redux)"_ cour
 1. **Clone the repo:**
    ```bash
    git clone https://github.com/yourusername/Tic-Tac-Toe.git
+2. **Navigate inside the project files:**
+   ```bash
    cd Tic-Tac-Toe
+3. **Install dependencies and the run:**
+   ```bash
+   npm install
+   npm run dev
+
