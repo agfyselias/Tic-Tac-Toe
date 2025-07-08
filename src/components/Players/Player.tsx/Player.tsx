@@ -1,5 +1,5 @@
 import { useState } from "react";
-import type { IPlayer } from "../../../utilities/interfaces/Player.interface";
+import type { IPlayer } from "../../../interfaces/Player.interface";
 import classes from './Player.module.scss';
 
 function Player(props: {

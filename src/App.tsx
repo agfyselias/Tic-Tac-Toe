@@ -2,13 +2,13 @@ import { useState } from "react";
 import GameBoard from "./components/GameBoard/GameBoard";
 import Players from "./components/Players/Players";
 import Log from "./components/Log/Log";
-import { WINNING_COMBINATIONS } from "./utilities/mocks/WinningCombinations.mock";
-import { DEFAULT_GAMEBOARD } from "./utilities/mocks/DefaultGameBoard.mock";
+import { WINNING_COMBINATIONS } from "./mocks/WinningCombinations.mock";
+import { DEFAULT_GAMEBOARD } from "./mocks/DefaultGameBoard.mock";
 import GameOver from "./components/GameOver/GameOver";
-import { DEFAULT_PLAYERS } from "./utilities/mocks/DefaultPlayers.mock";
+import { DEFAULT_PLAYERS } from "./mocks/DefaultPlayers.mock";
 import classes from './App.module.scss';
-import type { IPlayer } from "./utilities/interfaces/Player.interface";
-import type { ITurn } from "./utilities/interfaces/Turn.interface";
+import type { IPlayer } from "./interfaces/Player.interface";
+import type { ITurn } from "./interfaces/Turn.interface";
 
 // Helper functions
 function deriveActivePlayer(gameTurns: ITurn[]): 'X' | 'O' {

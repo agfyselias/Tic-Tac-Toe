@@ -1,5 +1,5 @@
 import Player from "./Player.tsx/Player";
-import type { IPlayer } from "../../utilities/interfaces/Player.interface";
+import type { IPlayer } from "../../interfaces/Player.interface";
 import classes from './Players.module.scss';
 
 function Players(props: {
