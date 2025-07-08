@@ -1,4 +1,5 @@
-@import '@/assets/styles/abstract/variables';
+@use '@/assets/styles/abstract/colors' as colors;
+@use '@/assets/styles/abstract/fonts' as fonts;
 
 .player {
   width: 50%;
@@ -8,15 +9,15 @@
   border-radius: 4px;
 
   &--active {
-    border-color: $color-energy-yellow;
+    border-color: colors.$color-energy-yellow;
     animation: pulse 2s infinite ease-in-out;
   }
 
   &__name {
     display: inline-block;
     width: 10rem;
-    font-size: 1rem;
-    color: $color-tana;
+    font-size: fonts.$font-size-sm;
+    color: colors.$color-tana;
     text-transform: uppercase;
     margin: 0;
     padding: 0.5rem;
@@ -25,30 +26,30 @@
     text-align: center;
 
     &--active {
-      color: $color-energy-yellow;
+      color: colors.$color-energy-yellow;
     }
   }
 
   &__name-input {
     font: inherit;
     color: inherit;
-    font-size: 1rem;
+    font-size: fonts.$font-size-sm;
     width: 10rem;
     border: none;
     padding: 0.5rem;
     animation: pulse-text 2s infinite;
-    background-color: $color-mondo;
+    background-color: colors.$color-mondo;
     text-align: center;
     text-transform: uppercase;
   }
 
   &__symbol {
-    margin-left: 1rem;
-    font-size: 1rem;
-    color: $color-tana;
+    margin-left: fonts.$font-size-sm;
+    font-size:fonts.$font-size-sm;
+    color: colors.$color-tana;
 
     &--active {
-      color: $color-energy-yellow;
+      color: colors.$color-energy-yellow;
     }
   }
 
@@ -56,15 +57,15 @@
       width: 3rem;
     border: none;
     background: none;
-    color: $color-gimblet;
-    font-size: 0.9rem;
+    color: colors.$color-gimblet;
+    font-size: fonts.$font-size-xs;
     cursor: pointer;
     transition: color 0.2s;
     padding: 0.5rem 0.25rem 0.25rem 0.25rem;
     text-align: center;
 
     &:hover:enabled {
-      color: $color-saffron;
+      color: colors.$color-saffron;
     }
   }
 }

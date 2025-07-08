@@ -1,6 +1,6 @@
 import Player from "./Player.tsx/Player";
-import type { IPlayer } from "../../utilities/interfaces/interfaces";
-import styles from './Players.module.scss';
+import type { IPlayer } from "../../utilities/interfaces/Player.interface";
+import classes from './Players.module.scss';
 
 function Players(props: {
   players: IPlayer[],
@@ -8,7 +8,7 @@ function Players(props: {
   onSavePlayerName: (playerIndex: number, newName: string) => void,
 }) {
   return (
-    <ol className={`${styles.players} ${styles['highlight-player']}`}>
+    <ol className={`${classes['players']} ${classes['highlight-player']}`}>
       {props.players.map((player: IPlayer, index: number) =>
         <Player
           key={`player-${player.name}-${index}`}

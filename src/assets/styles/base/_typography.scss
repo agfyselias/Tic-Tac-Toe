@@ -1,6 +1,9 @@
+@use '@/assets/styles/abstract/colors' as colors;
+@use '@/assets/styles/abstract/fonts' as fonts;
+
 h1 {
-  font-family: 'Caprasimo', cursive;
-  font-size: 3rem;
+  font-family: fonts.$font-family-secondary;
+  font-size: fonts.$font-size-xl;
   margin: 0 auto 3rem auto;
-  color: $color-mandras;
+  color: colors.$color-mandras;
 }

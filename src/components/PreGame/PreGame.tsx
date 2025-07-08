@@ -1,4 +1,4 @@
-// import styles from './PreGame.module.scss';
+// import classes from './PreGame.module.scss';
 
 function PreGame() {
   // TO-DO

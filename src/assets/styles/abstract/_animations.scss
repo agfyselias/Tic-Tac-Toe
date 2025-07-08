@@ -1,3 +1,5 @@
+@use '@/assets/styles/abstract/colors' as colors;
+
 @keyframes slide-in-from-left {
   0% {
     opacity: 0;
@@ -11,13 +13,13 @@
 
 @keyframes pulse-text {
   0% {
-    color: $color-tana;
+    color: colors.$color-tana;
   }
   50% {
-    color: $color-tallow;
+    color: colors.$color-tallow;
   }
   100% {
-    color: $color-tana;
+    color: colors.$color-tana;
   }
 }
 
@@ -35,16 +37,16 @@
 
 @keyframes pulse {
   0% {
-    border-color: $color-energy-yellow;
-    box-shadow: 0 0 0 0 rgba($color-energy-yellow, 0.4);
+    border-color: colors.$color-energy-yellow;
+    box-shadow: 0 0 0 0 rgba(colors.$color-energy-yellow, 0.4);
   }
   50% {
-    border-color: $color-saffron-alternate;
-    box-shadow: 0 0 0 0.5rem rgba($color-sea-buckthorn, 0);
+    border-color: colors.$color-saffron-alternate;
+    box-shadow: 0 0 0 0.5rem rgba(colors.$color-sea-buckthorn, 0);
   }
   100% {
-    border-color: $color-energy-yellow;
-    box-shadow: 0 0 0 0 rgba($color-energy-yellow, 0);
+    border-color: colors.$color-energy-yellow;
+    box-shadow: 0 0 0 0 rgba(colors.$color-energy-yellow, 0);
   }
 }
 
