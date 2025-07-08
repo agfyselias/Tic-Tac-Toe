@@ -5,10 +5,7 @@
   text-align: center;
 
   &__start {
-    cursor: pointer;
-    background: none;
     color: colors.$color-saffron-alternate;
-    border: none;
     font-family: fonts.$font-family-secondary;
     font-size: fonts.$font-size-xxl;
     text-shadow: 0 0 12px rgba(colors.$color-black, 0.7);

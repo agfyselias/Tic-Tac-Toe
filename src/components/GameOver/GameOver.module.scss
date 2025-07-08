@@ -39,12 +39,10 @@
     display: block;
     margin: 0 auto;
     font-size: fonts.$font-size-md;
-    background: none;
     border: 2px solid colors.$color-dandelion;
     color: colors.$color-dandelion;
     padding: 0.5rem 1rem;
     border-radius: 4px;
-    cursor: pointer;
     transition: all 0.2s, color 0.2s;
     box-shadow: 0 0 8px rgba(colors.$color-selective-yellow, 0.4);
 

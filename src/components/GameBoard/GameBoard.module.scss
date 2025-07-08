@@ -15,8 +15,6 @@
     flex-wrap: wrap;
     justify-content: center;
     gap: 2rem;
-    margin: 0;
-    padding: 0;
   }
 
   &__square {
@@ -24,14 +22,9 @@
     font-size: fonts.$font-size-xxxl;
     width: 8rem;
     height: 8rem;
-    border: none;
     background: colors.$color-hillary;
     color: colors.$color-mandras;
     cursor: pointer;
     padding: 1rem;
-
-    &:disabled {
-      cursor: not-allowed;
-    }
   }
 }

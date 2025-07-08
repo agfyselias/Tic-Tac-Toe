@@ -8,21 +8,11 @@
   &__title {
     font-family: fonts.$font-family-secondary;
     font-size: fonts.$font-size-lg;
-    margin: 0;
-  }
-
-  & ul {
-    list-style: none;
-    padding: 0;
-    margin: 0;
   }
 
   & button {
-    cursor: pointer;
-    border: none;
-    background: transparent;
-    color: colors.$color-tuatara;
     font: inherit;
+    color: colors.$color-tuatara;
     margin-top: 1.5rem;
   }
 }

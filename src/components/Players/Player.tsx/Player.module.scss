@@ -19,7 +19,6 @@
     font-size: fonts.$font-size-sm;
     color: colors.$color-tana;
     text-transform: uppercase;
-    margin: 0;
     padding: 0.5rem;
     border-radius: 4px;
     text-overflow: ellipsis;
@@ -54,12 +53,9 @@
   }
 
   &__button {
-      width: 3rem;
-    border: none;
-    background: none;
+    width: 3rem;
     color: colors.$color-gimblet;
     font-size: fonts.$font-size-xs;
-    cursor: pointer;
     transition: color 0.2s;
     padding: 0.5rem 0.25rem 0.25rem 0.25rem;
     text-align: center;
